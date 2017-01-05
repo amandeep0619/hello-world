@@ -1,0 +1,11 @@
+Effective java Summary
+
+-	Instance Controlled Class
+-	Immutable class
+-	Singleton class
+-	Interfaced based framework
+-	Service Provider framework : a system in which multiple service providers implement a service, and the system makes the implementations available to its clients, decoupling them from the implementations.
+	-	Three Essential components of a service provider framework:
+		1.	A service interface : which providers implement
+		2.	A Provider Registration API : which system uses to register implementations, giving clients access to them,
+		3.	A Service Access API : which clients use to obtain an instance of the service.
